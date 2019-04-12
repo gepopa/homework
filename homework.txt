@@ -1,1 +1,48 @@
-Here I start Exercise nr 1
+1. Exercise #1 : Finding defects 
+As we previously spoke on our last meeting, we identified that a defect can be described 
+also by a severity and a priority. Please give 3 examples each, where: 
+- priority is high & severity is low 
+- priority is low & severity is high 
+- both are high 
+- both are low							
+							
+							
+							
+							
+High priority & low severity	If we have a bad spelling on the company's name or the wrong
+Logo on the first screen of our app, 
+is not a high severity because the app still works, 
+but is definitely a high priority for the image of the product and the company						
+							
+	Story for translation integration, with missing translated words						
+							
+	Missing blur effect on splash screen after the redesign of the splash screen						
+							
+							
+Low priority & high severity	When we have a crash in a very complex flow, and maybe only on a single model of device,
+We have a High severity defect, but is low priority because a normal user will not do that flow.
+Ex: we have a Google Pixel with Android 9.0
+One app (Portrait mode only),with 7 subapps, and the defect reproduces only if I enter in 
+Landscape mode on one specific subapp, then with the phone still in landscape mode,
+I open a second specific subbapp, theeen the app crashes :D true story						
+							
+	Missing parts of the screen on a flow that is very difficult to access						
+							
+	A deffect for a premium subscription flow for a product that nobody use						
+							
+							
+High priority & high severity	If we have a story to implement a button to open something
+And the button is not there :D						
+							
+	If we have a crash o a usual flow						
+							
+	If the redirection for an activation link is wrong						
+							
+							
+Low priority & low severity	Spelling defect						
+							
+	Not traslated strings in polish for an italian app						
+							
+	Wrong text collor for a non usual flow						
+							
+---------------------------------End of exercise 1-------------------------------------							
