@@ -46,3 +46,5 @@ Low priority & low severity	Spelling defect
 	Wrong text collor for a non usual flow						
 							
 ---------------------------------End of exercise 1-------------------------------------							
+
+Here starts the Exercise 2
