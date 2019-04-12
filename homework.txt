@@ -262,3 +262,49 @@ Expected result:	A message informs the user there are no lyrics availabe yet
 									
 									
 ---------------------------------End of exercise 2------------------------------------------------
+
+
+
+3. Exercise #3 : Defect reporting 
+In you opinion, when reporting a bug, 
+what would you include in the given report? (name, description, date, etc).
+ Feel free to think of any relevant fields that may help with identifying 
+the bug and making it understandable for the entire team. 
+Design a template for a bug report. 							
+							
+							
+							
+							
+							
+							
+							
+							
+Preconditions:							
+Build							
+Phone							
+OS							
+Server							
+Settings							
+Account 							
+Profile							
+Device language							
+App language							
+Device orientation							
+Internet connection							
+Bluetooth connection							
+GPS connection							
+							
+							
+Steps to reproduce:							
+							
+Expected result:							
+Screen shots or video							
+							
+							
+Actual result:							
+Screen shots or video							
+Logs							
+							
+
+
+------------------------------Exercise 3 ended----------------------------------
