@@ -1,0 +1,21 @@
+4. Exercise #4: Providing suggestions 
+Providing suggestion to improve quality or user experience is the extension of software testing job. 
+So why not try that? Can you tell how user experience can be improved for the following sign in page? 								
+								
+-----here is a picture-----							
+								
+								
+								
+1. Keep the Sign in and the Sign up separately								
+2. Accept log in with an external account (Facebook / Gmail)								
+3. Accept phone numbers or user names for the log-in								
+4. Focus on the selected field								
+5. Inform the user if the CapsLock is active when is on the Password field								
+6. Give the posibility to the user to see the password								
+7. Give the possibility to save the credentials for further uses								
+8. Remember the user when is back on the page								
+9. Use reCAPTCHA v3								
+								
+								
+-------------------------------------Exercise 4 completed-------------------------------------								
+								
