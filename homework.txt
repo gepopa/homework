@@ -47,4 +47,218 @@ Low priority & low severity	Spelling defect
 							
 ---------------------------------End of exercise 1-------------------------------------							
 
-Here starts the Exercise 2
+2. Exercise #2 : Writing test scenarios - 30 minutes 
+Create test cases for a mobile app(for reference you can use shazam app, 
+the song discovery feature, sharing the song through social media apps 
+& lyrics being displayed on the device) 
+
+- here include elements like priority of considered tests
+(prioritization - most important tests are done first - slide 11)
+ - acceptance data (slide 11)
+ - think of acceptance criteria, coverage criteria (slide 11)
+- consider everything :) 									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+Song discovery function									
+									
+Check the discovery function with microphone permission									
+									
+Priority:	High								
+Preconditions:	Microphone permission granted								
+	A known song played								
+Steps:	Open the app and tap on discover song button								
+Expected result:	The song is identified and the title is displayed								
+									
+									
+Check the discovery function without microphone permission									
+									
+Priority:	High								
+Preconditions:	No microprone permission								
+	A known song played								
+Steps:	Open the app and tap on discover song button								
+Expected result:	A pop-up will inform the user tha microphone permission is needed								
+									
+									
+Check the discovery function with internet connection									
+									
+Priority:	High								
+Preconditions:	Internet connection available								
+	A known song played								
+Steps:	Open the app and tap on discover song button								
+Expected result:	The song is identified and the title is displayed								
+									
+									
+Check the discovery function without internet connection									
+									
+Priority:	High								
+Preconditions:	NO internet connection available								
+	A song is played								
+Steps:	Open the app and tap on discover song button								
+Expected result:	A pop-up will inform the user that the song was recorded and a discovery will run when internet is available again								
+									
+									
+Check the discovery function if the michrophone is used by another service									
+									
+Priority:	Low								
+Preconditions:	Internet connection available								
+	A song is played								
+	The microphone is already used by another app								
+Steps:	Open the app and tap on discover song button								
+Expected result:	A pop-up will inform the user that the microphone is used by another app								
+									
+									
+Check the discovery function for a known song									
+									
+Priority:	Medium								
+Preconditions:	Internet connection available								
+	A known song is played								
+									
+Steps:	Open the app and tap on discover song button								
+Expected result:	The title of the song is displayed								
+									
+									
+Check the discovery function for an unknown song									
+									
+Priority:	Medium								
+Preconditions:	Internet connection available								
+	An unknown song played								
+Steps:	Open the app and tap on discover song button								
+Expected result:	A pop-up will inform the user that this song is not known at this moment								
+									
+									
+Check the discovery function for a very loud sound									
+									
+Priority:	Low								
+Preconditions:	Internet connection available								
+	A very high sound played								
+Steps:	Open the app and tap on discover song button								
+Expected result:	The user is informed that the song can't be discovered for now								
+									
+									
+Check the discovery function if no sound is played									
+									
+Priority:	Low								
+Preconditions:	Internet connection available								
+	No sound played								
+Steps:	Open the app and tap on discover song button								
+Expected result:	The user is informed that the song can't be discovered for now								
+									
+									
+Check the discovery function in landscape mode									
+									
+Priority:	Medium								
+Preconditions:	Internet connection available								
+	A known song is played								
+	The device is in landscape mode								
+Steps:	Open the app and tap on discover song button								
+Expected result:	The title of the song is displayed								
+									
+									
+									
+									
+									
+									
+									
+Share through social media									
+									
+									
+Share song through FB		Negative TC							
+									
+									
+Share without internet connection									
+									
+Priority:	Medium								
+Preconditions:	NO internet connection available								
+	A song available on MyShazam								
+	FB app installed on the device								
+Steps:	1. Open the app on MyShazam, select a song, tap on the dots menu and select FB on the  Share menu								
+	2. Tap on the share button								
+Expected result:	1. A FB post is prepared								
+	2. A pop-up will inform the user there is no internet connection available								
+									
+									
+Share without a FB account									
+									
+Priority:	Low								
+Preconditions:	Internet connection available								
+	A song available on MyShazam								
+	FB app installed on the device								
+Steps:	1. Open the app on MyShazam, select a song, tap on the dots menu and select FB on the  Share menu								
+	2. Tap on the Sign up button								
+Expected result:	1. FB opens on the Sign in / Sign up page								
+	2. The flow continues on the FB app								
+									
+									
+Share without beeng signed in FB account									
+									
+Priority:	Medium								
+Preconditions:	Internet connection available								
+	A song available on MyShazam								
+	FB app installed on the device								
+Steps:	1. Open the app on MyShazam, select a song, tap on the dots menu and select FB on the  Share menu								
+	2. Tap on the Sign in  button								
+	3. Sign in with a valid account								
+	4. Tap on share								
+Expected result:	1. FB opens on the Sign in / Sign up page								
+	2. The flow continues on the FB app								
+	3. After a successful log in a post is prepared to share the song								
+	4. The song is shared on FB								
+									
+									
+									
+									
+									
+									
+Display lyrics on the device									
+									
+									
+									
+Display lyrics for a discovered song									
+									
+Priority:	High								
+Preconditions:	Internet connection available								
+	A song with lyrics saved on MyShazam								
+									
+Steps:	Go to MyShazam, select a song and check the Lyrics tab								
+Expected result:	The lyrics for the song are displayed								
+									
+									
+									
+									
+Check lyrics for an instrumental song									
+									
+Priority:	Medium								
+Preconditions:	Internet connection available								
+	An instrumental song saved on MyShazam								
+									
+Steps:	Go to MyShazam, select an instrumental song and check the lyrics tab								
+Expected result:	The lyrics tab is not available								
+									
+									
+									
+									
+Check lyrics for a song without lyrics available									
+									
+Priority:	Medium								
+Preconditions:	Internet connection available								
+	A song without lyrics saved on MyShazam								
+									
+Steps:	Go to MyShazam, select an instrumental song and check the lyrics tab								
+Expected result:	A message informs the user there are no lyrics availabe yet								
+									
+									
+									
+---------------------------------End of exercise 2------------------------------------------------
